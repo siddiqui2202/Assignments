@@ -1,0 +1,146 @@
+
+div.container3 {
+
+    position: absolute;
+    top: 2px;
+
+    border: 1px solid black;
+    background-color: #AA336A;
+    color: aqua;
+    width: 500px;
+    height: 350px;
+    margin: 200px;
+    margin-left: 400px;
+    z-index: -10;
+}
+
+img {
+    margin-top: 0%;
+    padding-left: 150px;
+    margin: 0px;
+    width: 600px;
+    height: 400px;
+}
+
+div.container2 {
+    z-index: 10;
+    position: sticky;
+    width: 500px;
+    height: 300PX;
+    margin-top:0px;
+    margin-left: 500px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+body {
+    
+    position: relative;
+    background-color: #faeeee;
+    height: 50%;
+}
+
+div h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0px 0px 50px;
+    font-size: 30px;
+}
+
+div p {
+
+    text-align: center;
+    
+    padding: 0px 10px 0px 0px;
+    width: 350px;
+    margin: 10px 0px 0px 10px;
+    font-size: 18px;
+
+}
+
+div.container4 {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    border: 1px solid black;
+    height: 40vh;
+    width: 220vh;
+}
+
+.image2 {
+    position: absolute;
+    top: 10px;
+    right: 1200px;
+    width: 100px;
+    height: 40px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+div a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon-bar {
+
+    margin-bottom: 0px;
+    z-index: -12;
+    display: flex;
+    flex-direction: row;
+
+    
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    overflow: auto;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+
+
+
+}
+
+.icon-bar a {
+
+    position: static;
+
+    text-align: center;
+    width: 10%;
+    
+    padding: 12px 0;
+    
+    transition: all 0.3s ease;
+    color: rgb(0, 0, 0);
+    
+    font-size: 20px;
+
+}
+
+.icon-bar a:hover {
+    background-color: #ff8a8a;
+    
+}
+
+.active {
+    background-color: white;
+    
+}
+ul{
+    list-style:none ;
+    display: flex;
+    gap: 10px;}
+
+    div button{
+        margin: 50px 0px 50px 200px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color:#AA336A;
+        color: white;
+        
+    }
+
+    button.button{
+        font-family: 'Courier New', Courier, monospace
+    
+    }
