@@ -1,0 +1,21 @@
+a.navbar-brand{
+    font-size: small;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar-logo{
+    color: black;
+    font-size: large;
+    padding-right: 1px;
+    padding-bottom: 5px;
+}
+
+div p{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
